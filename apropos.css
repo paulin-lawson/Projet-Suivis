@@ -1,0 +1,203 @@
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+html,
+body{
+    padding: 0;
+    margin: 0%;
+    font-family: roboto-regular;
+    font-size: 14px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 10px;
+    list-style: none;
+}
+.logo{
+    margin: 50px;
+}
+.banner{
+    background-image: url(./assets/images/academy.png);
+    width: 100%;
+    height: 600px;
+}
+
+.mask{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to top, rgb(25, 91, 127), rgba(255, 0, 0, 0));
+}
+
+h1{
+    font-family: roboto-regular;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    padding-top: 300px;   
+    padding-left: 70px;
+}
+
+h2{
+    margin: 70px;
+    font-size: 60px;
+}
+
+h3{
+    font-size: 40px;
+    margin: 70px;
+}
+
+p{
+    margin: 70px ;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.462);
+}
+span{
+    
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.462);
+}
+.section_texte-img{
+    
+    margin: 70px;
+}
+
+.images1{
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin-left: 80px;
+    border-radius: 25px;
+    
+    text-align: center;
+}
+
+.section-texte{
+    margin: 70px;
+}
+
+.contenair-article{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.item{
+    margin: 15px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.section-texte{
+    text-align: center;
+}
+
+h4{
+    font-size: 20px;
+    
+}
+
+.paragr{
+    width: 400px;
+    text-align: center;
+    margin-top: -10px;
+    
+}
+.paragr p{
+    font-size: 17px;
+    margin-top: -10px;
+}
+
+.num-titre span{
+    color: rgb(16, 150, 69);
+    font-size: 45px;
+    
+}
+button{
+    border: none;
+    background-color: rgb(16, 150, 69);
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+
+.last-section button a{
+    color: white;
+
+}
+
+.last-section{
+    padding-top: -25px;
+    display: flex;
+}
+.part1{
+    margin-top: 140px;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.foot{
+    margin-top: 15px;
+    justify-content: center;
+}
+.foot span{
+    color: antiquewhite;
+    padding: 50px;
+    padding-top: 30px;
+    font-size: 17px;
+}
+
+
+
+
+@font-face {
+    font-family: roboto-thin;
+    src: url(./assets/fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(./assets/fonts/Roboto-Light.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../Univ_Lome/assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../Univ_Lome/assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../Univ_Lome/assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url(../Univ_Lome/assets/fonts/Roboto-Black.ttf);
+}

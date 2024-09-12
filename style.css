@@ -1,0 +1,222 @@
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+}
+
+html,
+body{
+    padding: 0;
+    margin: 0%;
+    font-family: roboto-regular;
+    font-size: 14px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 10px;
+    list-style: none;
+}
+.logo{
+    margin: 50px;
+}
+.banner{
+    background-image: url(./assets/images/academy.png);
+    width: 100%;
+    height: 600px;
+}
+
+.mask{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to top, rgb(25, 91, 127), rgba(255, 0, 0, 0));
+}
+
+h1{
+    font-family: roboto-regular;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    padding-top: 300px;   
+    padding-left: 70px;
+}
+
+.contenaire_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenaire-grid{
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 50px rgb(81, 81, 81);
+    
+    width: 350px;
+    height: 300px;
+    
+}
+
+.section_texte{
+    text-align: center;
+    
+}
+
+.contenaire-grid button{
+    background-color: #04894d;
+
+    
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    
+}
+.bouton1{
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.d_grid-3{
+    text-align: center;
+}
+
+.contenaire-grid a{
+    color: #ffffff;
+    
+}
+
+.d_grid-3>div {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+.background-section3{
+    display: flex;
+    background-color: rgb(10, 75, 125);
+}
+
+.content-section3{
+    margin: 50px;
+}
+
+.text{
+    color: #ffffff;
+
+}
+
+.green_title{
+    color: #00c16a;
+    font-size: 35px;
+}
+
+.d_grid-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.drid-4 h2{
+    color: #FFF;
+}
+.section4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.drid-4{
+    margin: 50px;
+    background-color: rgb(10, 75, 125);
+    border-radius: 15px;
+    padding: 20px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+.drid-4 a{
+    color: #ffffff;
+}
+
+
+
+.d_grid-4  button{
+    background-color: #04894d;
+
+    
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    
+    
+}
+
+.logo-partenaire{
+    display: flex;
+    background-color:rgb(10, 75, 125) ;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.marge{
+    margin: 15px;
+    
+}
+footer{
+    background-color: black;
+    height: 100px;
+    padding: 25px;
+}
+
+footer span{
+    color: #ffffffc2;
+    margin: 25px;
+    font-size: 17px;
+    
+}
+
+@font-face {
+    font-family: roboto-thin;
+    src: url(./assets/fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(./assets/fonts/Roboto-Light.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../Univ_Lome/assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../Univ_Lome/assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../Univ_Lome/assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url(../Univ_Lome/assets/fonts/Roboto-Black.ttf);
+}
